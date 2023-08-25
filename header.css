@@ -1,0 +1,86 @@
+.cabecalho{
+    background-color: var(--fundo-azul);
+    margin: 0;
+    
+    }
+    .container{
+        display: flex; 
+        align-items: center;
+    }
+    .container_imagem{
+    width: 30px;
+    height: 30px;
+    }
+    .container_titulo,.container_frase{
+         display: none;
+    } @media screen and(min-width: 1024px) {
+        .container_frase { 
+         font-size: 30px;
+         display: inline-block; 
+        }
+    .container_frase { 
+        font-weight: 400;
+        padding-left: 5em;
+    }
+    .orientacao { 
+        display: block;isplay: block;
+        font-size: 30px;
+        color: var(--lilas); border: 3px solid greenyellow;
+    }
+    .container_titulo, .container_frase{ 
+        display: flex;
+    }
+     .cx-texto{
+        display: flex; justify-content: center;
+    
+   }
+    .orientacao3{
+        display: block;
+        font-size: 30px;
+        display: inline-block;
+    }
+    
+    
+  
+    
+    
+    
+   { font-size: 30px;
+    
+    
+    color: aquamarine;margin-top: 3em;
+    
+    
+    border:3px solid white;
+    
+    
+     }
+    
+   { padding:1em;}
+    
+    {.orientacao,.orientacao2
+    
+    display:none;
+    } 
+    
+    
+    
+    @media screen and (min-width: 768px) {
+    
+    .container titulo { font-size: 30px;
+    
+    display: inline-block;}
+    
+    }
+    
+    .container_titulo{ font-weight: 400;
+    
+    }
+    
+    .orientacao2
+    
+   { display:block;
+    
+    font-size: 30px; color:var(--lilas);
+    
+    border: 3px solid greenyellow;}
